@@ -1,0 +1,37 @@
+[
+  {
+    "id": "Q001",
+    "question": "What is tokenization in large language models?",
+    "expected_answer": "Tokenization is the process of splitting input text into smaller units called tokens.",
+    "keywords": ["splitting", "text", "tokens"],
+    "source": "https://huggingface.co/docs/transformers/en/tokenizer_summary"
+  },
+  {
+    "id": "Q002",
+    "question": "What is a token?",
+    "expected_answer": "A token is a unit of text such as a word, subword, character or punctuation mark processed by a language model.",
+    "keywords": ["unit", "text", "word", "subword"],
+    "source": "https://huggingface.co/docs/transformers/en/tokenizer_summary"
+  },
+  {
+    "id": "Q003",
+    "question": "What is Byte Pair Encoding?",
+    "expected_answer": "Byte Pair Encoding is a subword tokenization algorithm that repeatedly merges frequent adjacent symbol pairs.",
+    "keywords": ["subword", "merges", "frequent", "pairs"],
+    "source": "https://huggingface.co/docs/transformers/en/tokenizer_summary"
+  },
+  {
+    "id": "Q004",
+    "question": "What is WordPiece tokenization?",
+    "expected_answer": "WordPiece is a subword tokenization algorithm that builds a vocabulary of frequently useful word pieces.",
+    "keywords": ["subword", "vocabulary", "word", "pieces"],
+    "source": "https://huggingface.co/docs/transformers/en/tokenizer_summary"
+  },
+  {
+    "id": "Q005",
+    "question": "What is SentencePiece?",
+    "expected_answer": "SentencePiece is a language-independent tokenizer that can train directly on raw text and supports BPE and Unigram models.",
+    "keywords": ["language-independent", "raw text", "BPE", "Unigram"],
+    "source": "https://github.com/google/sentencepiece"
+  }
+]
